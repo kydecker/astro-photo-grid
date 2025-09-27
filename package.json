@@ -29,6 +29,6 @@
     "sharp": "^0.34.4",
     "stylelint": "^16.24.0",
     "stylelint-config-astro": "^1.0.4",
-    "stylelint-config-standard": "^38.0.0"
+    "stylelint-config-standard": "^39.0.0"
   }
 }
