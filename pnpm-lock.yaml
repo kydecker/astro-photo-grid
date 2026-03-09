@@ -40,8 +40,8 @@ importers:
         specifier: ^16.24.0
         version: 16.24.0(typescript@5.9.3)
       stylelint-config-astro:
-        specifier: ^1.0.4
-        version: 1.0.4(postcss-html@1.7.0)(stylelint@16.24.0(typescript@5.9.3))
+        specifier: ^2.0.0
+        version: 2.0.0(postcss-html@1.7.0)(stylelint@16.24.0(typescript@5.9.3))
       stylelint-config-standard:
         specifier: ^39.0.0
         version: 39.0.0(stylelint@16.24.0(typescript@5.9.3))
@@ -2016,8 +2016,8 @@ packages:
     resolution: {integrity: sha512-yDPMNjp4WyfYBkHnjIRLfca1i6KMyGCtsVgoKe/z1+6vukgaENdgGBZt+ZmKPc4gavvEZ5OgHfHdrazhgNyG7w==}
     engines: {node: '>=12'}
 
-  stylelint-config-astro@1.0.4:
-    resolution: {integrity: sha512-AzmZX6MbAArMsPe+RqrkHD15YSRc+zd9NwosPIN4zDpXoNC8ExD7xpwRsbe+GSfDveOjK3Fd8BFG6Gss/USc2w==}
+  stylelint-config-astro@2.0.0:
+    resolution: {integrity: sha512-BSl+wNEa3h1+GhHAfI3WO/fPylcVoePLIMd+JX1hz1Pt2cnqRswjfA4EqD6Wy2DqrariqYJE1xXZCnuJNrjb8w==}
     peerDependencies:
       postcss-html: ^1.0.0
       stylelint: '>=14.0.0'
@@ -2105,11 +2105,6 @@ packages:
 
   typescript-auto-import-cache@0.3.6:
     resolution: {integrity: sha512-RpuHXrknHdVdK7wv/8ug3Fr0WNsNi5l5aB8MYYuXhq2UH5lnEB1htJ1smhtD5VeCsGr2p8mUDtd83LCQDFVgjQ==}
-
-  typescript@4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
 
   typescript@5.9.3:
     resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
@@ -4614,11 +4609,11 @@ snapshots:
     dependencies:
       ansi-regex: 6.2.2
 
-  stylelint-config-astro@1.0.4(postcss-html@1.7.0)(stylelint@16.24.0(typescript@5.9.3)):
+  stylelint-config-astro@2.0.0(postcss-html@1.7.0)(stylelint@16.24.0(typescript@5.9.3)):
     dependencies:
       postcss-html: 1.7.0
       stylelint: 16.24.0(typescript@5.9.3)
-      typescript: 4.9.5
+      typescript: 5.9.3
 
   stylelint-config-recommended@17.0.0(stylelint@16.24.0(typescript@5.9.3)):
     dependencies:
@@ -4738,8 +4733,6 @@ snapshots:
   typescript-auto-import-cache@0.3.6:
     dependencies:
       semver: 7.7.4
-
-  typescript@4.9.5: {}
 
   typescript@5.9.3: {}
 
