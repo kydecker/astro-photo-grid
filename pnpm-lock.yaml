@@ -40,8 +40,8 @@ importers:
         specifier: ^16.24.0
         version: 16.26.1(typescript@5.9.3)
       stylelint-config-astro:
-        specifier: ^1.0.4
-        version: 1.0.4(postcss-html@1.7.0)(stylelint@16.26.1(typescript@5.9.3))
+        specifier: ^2.0.0
+        version: 2.0.0(postcss-html@1.7.0)(stylelint@16.26.1(typescript@5.9.3))
       stylelint-config-standard:
         specifier: ^39.0.1
         version: 39.0.1(stylelint@16.26.1(typescript@5.9.3))
@@ -1606,6 +1606,10 @@ packages:
     resolution: {integrity: sha512-3Ybi1tAuwAP9s0r1UQ2J4n5Y0G05bJkpUIO0/bI9MhwmD70S5aTWbXGBwxHrelT+XM1k6dM0pk+SwNkpTRN7Pg==}
     engines: {node: ^10 || ^12 || >=14}
 
+  postcss@8.5.8:
+    resolution: {integrity: sha512-OW/rX8O/jXnm82Ey1k44pObPtdblfiuWnrd8X7GJ7emImCOstunGbXUpp7HdBrFQX6rJzn3sPT397Wp5aCwCHg==}
+    engines: {node: ^10 || ^12 || >=14}
+
   prettier-plugin-astro@0.14.1:
     resolution: {integrity: sha512-RiBETaaP9veVstE4vUwSIcdATj6dKmXljouXc/DDNwBSPTp8FRkLGDSGFClKsAFeeg+13SB0Z1JZvbD76bigJw==}
     engines: {node: ^14.15.0 || >=16.0.0}
@@ -1806,8 +1810,8 @@ packages:
     resolution: {integrity: sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==}
     engines: {node: '>=8'}
 
-  stylelint-config-astro@1.0.4:
-    resolution: {integrity: sha512-AzmZX6MbAArMsPe+RqrkHD15YSRc+zd9NwosPIN4zDpXoNC8ExD7xpwRsbe+GSfDveOjK3Fd8BFG6Gss/USc2w==}
+  stylelint-config-astro@2.0.0:
+    resolution: {integrity: sha512-BSl+wNEa3h1+GhHAfI3WO/fPylcVoePLIMd+JX1hz1Pt2cnqRswjfA4EqD6Wy2DqrariqYJE1xXZCnuJNrjb8w==}
     peerDependencies:
       postcss-html: ^1.0.0
       stylelint: '>=14.0.0'
@@ -1895,11 +1899,6 @@ packages:
 
   typescript-auto-import-cache@0.3.6:
     resolution: {integrity: sha512-RpuHXrknHdVdK7wv/8ug3Fr0WNsNi5l5aB8MYYuXhq2UH5lnEB1htJ1smhtD5VeCsGr2p8mUDtd83LCQDFVgjQ==}
-
-  typescript@4.9.5:
-    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
 
   typescript@5.9.3:
     resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
@@ -3921,14 +3920,14 @@ snapshots:
     dependencies:
       htmlparser2: 8.0.2
       js-tokens: 9.0.1
-      postcss: 8.5.6
-      postcss-safe-parser: 6.0.0(postcss@8.5.6)
+      postcss: 8.5.8
+      postcss-safe-parser: 6.0.0(postcss@8.5.8)
 
   postcss-resolve-nested-selector@0.1.6: {}
 
-  postcss-safe-parser@6.0.0(postcss@8.5.6):
+  postcss-safe-parser@6.0.0(postcss@8.5.8):
     dependencies:
-      postcss: 8.5.6
+      postcss: 8.5.8
 
   postcss-safe-parser@7.0.1(postcss@8.5.6):
     dependencies:
@@ -3942,6 +3941,12 @@ snapshots:
   postcss-value-parser@4.2.0: {}
 
   postcss@8.5.6:
+    dependencies:
+      nanoid: 3.3.11
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  postcss@8.5.8:
     dependencies:
       nanoid: 3.3.11
       picocolors: 1.1.1
@@ -4221,11 +4226,11 @@ snapshots:
     dependencies:
       ansi-regex: 5.0.1
 
-  stylelint-config-astro@1.0.4(postcss-html@1.7.0)(stylelint@16.26.1(typescript@5.9.3)):
+  stylelint-config-astro@2.0.0(postcss-html@1.7.0)(stylelint@16.26.1(typescript@5.9.3)):
     dependencies:
       postcss-html: 1.7.0
       stylelint: 16.26.1(typescript@5.9.3)
-      typescript: 4.9.5
+      typescript: 5.9.3
 
   stylelint-config-recommended@17.0.0(stylelint@16.26.1(typescript@5.9.3)):
     dependencies:
@@ -4346,8 +4351,6 @@ snapshots:
   typescript-auto-import-cache@0.3.6:
     dependencies:
       semver: 7.7.2
-
-  typescript@4.9.5: {}
 
   typescript@5.9.3: {}
 
