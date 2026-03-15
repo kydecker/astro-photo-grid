@@ -16,15 +16,15 @@
     "stylelint:fix": "stylelint '**/*.{astro,css}' --fix"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.6",
-    "@astrojs/sitemap": "^3.7.0",
+    "@astrojs/check": "^0.9.7",
+    "@astrojs/sitemap": "^3.7.1",
     "@fancyapps/ui": "^6.1.13",
-    "astro": "^5.18.0",
+    "astro": "^6.0.4",
     "smartypants": "^0.2.2",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.6",
+    "@biomejs/biome": "^2.4.7",
     "husky": "^9.1.7",
     "sharp": "^0.34.5",
     "stylelint": "^16.24.0",
