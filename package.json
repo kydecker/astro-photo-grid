@@ -16,10 +16,10 @@
     "stylelint:fix": "stylelint '**/*.{astro,css}' --fix"
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.7",
+    "@astrojs/check": "^0.9.8",
     "@astrojs/sitemap": "^3.7.1",
     "@fancyapps/ui": "^6.1.13",
-    "astro": "^6.0.4",
+    "astro": "^6.0.5",
     "smartypants": "^0.2.2",
     "typescript": "^5.9.3"
   },
