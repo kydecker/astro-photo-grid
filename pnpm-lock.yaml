@@ -233,7 +233,7 @@ importers:
         specifier: ^1.0.2
         version: 1.0.2
       sharp:
-        specifier: ^0.35.3
+        specifier: ^0.35.5
         version: 0.35.5(@types/node@24.13.3)
       simple-git-hooks:
         specifier: ^2.13.1
