@@ -36,7 +36,7 @@
     "@fancyapps/ui": "^6.1.15",
     "astro": "^7.3.8",
     "smartypants": "^0.2.2",
-    "typescript": "^6.0.3"
+    "typescript": "^7.0.2"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.15",
