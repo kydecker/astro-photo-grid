@@ -13,27 +13,25 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   description="A minimal, single-page photo gallery for Astro."
 >
   <section class="justified-gallery" id="photoswipe">
-    {
-      Object.entries(images).map(async ([_path, image], index) => {
-        const { default: imageData } = await image();
-        return (
-          <a
-            style={`--width: ${imageData.width}; --height: ${imageData.height};`}
-            href={imageData.src}
-            target="_blank"
-            data-fancybox="gallery"
-          >
-            <Image
-              format="webp"
-              src={imageData}
-              alt=""
-              height={400}
-              loading={index < 20 ? "eager" : "lazy"}
-            />
-          </a>
-        );
-      })
-    }
+    {Object.entries(images).map(async ([_path, image], index) => {
+      const { default: imageData } = await image();
+      return (
+        <a
+          style={`--width: ${imageData.width}; --height: ${imageData.height};`}
+          href={imageData.src}
+          target="_blank"
+          data-fancybox="gallery"
+        >
+          <Image
+            format="webp"
+            src={imageData}
+            alt=""
+            height={400}
+            loading={index < 20 ? "eager" : "lazy"}
+          />
+        </a>
+      );
+    })}
   </section>
 </BaseLayout>
 
@@ -103,9 +101,17 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
       opacity: 0;
     }
 
+    /* Prevent awkward gap from showing after image in last row */
     &::after {
-      content: " ";
+      content: "";
       flex-grow: 1000000000;
+    }
+
+    /* Mobile-only */
+    @media (width < 640px) {
+      &::after {
+        display: none;
+      }
     }
   }
 </style>
