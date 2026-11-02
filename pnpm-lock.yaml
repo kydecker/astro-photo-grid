@@ -176,7 +176,7 @@ importers:
         specifier: ^6.1.15
         version: 6.1.15
       astro:
-        specifier: ^7.4.3
+        specifier: ^7.4.4
         version: 7.4.4(@types/node@24.13.3)(esbuild@0.28.2)(yaml@2.9.1)
       smartypants:
         specifier: ^0.2.2
