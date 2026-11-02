@@ -186,7 +186,7 @@ importers:
         version: 6.0.3
     devDependencies:
       '@biomejs/biome':
-        specifier: ^2.6.3
+        specifier: ^2.6.4
         version: 2.6.4
       nano-staged:
         specifier: ^1.0.2
