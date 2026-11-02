@@ -34,7 +34,7 @@
     "@astrojs/check": "^0.9.12",
     "@astrojs/sitemap": "^3.7.4",
     "@fancyapps/ui": "^6.1.15",
-    "astro": "^7.4.3",
+    "astro": "^7.4.4",
     "smartypants": "^0.2.2",
     "typescript": "^6.0.3"
   },
