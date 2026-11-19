@@ -2,7 +2,7 @@
 
 # Astro Photo Grid
 
-A minimal, single-page photo gallery for [Astro](https://astro.build/). See the [demo](https://astro-photo-grid.netlify.app/)!
+A minimal, single-page photo gallery for [Astro](https://astro.build/). See the [demo](https://astro-photo-grid.ky.fyi)!
 
 ## Features
 
