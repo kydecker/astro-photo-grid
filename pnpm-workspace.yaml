@@ -2,3 +2,9 @@ allowBuilds:
   esbuild: false
   simple-git-hooks: true
   workerd: true
+# astro2tsx omits @emnapi/runtime, so pnpm pairs its 1.x core with rolldown's 2.x beta runtime.
+# Remove once @astrojs/check ships an astro2tsx that declares it.
+packageExtensions:
+  "@astrojs/astro2tsx@0.1.3":
+    dependencies:
+      "@emnapi/runtime": 1.11.3

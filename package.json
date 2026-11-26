@@ -8,7 +8,7 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.16.1",
+      "version": "12.22.0",
       "onFail": "download"
     }
   },
@@ -32,17 +32,17 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.12",
-    "@astrojs/sitemap": "^3.7.4",
+    "@astrojs/sitemap": "^3.7.6",
     "@fancyapps/ui": "^6.1.15",
-    "astro": "^7.4.4",
+    "astro": "^7.4.13",
     "smartypants": "^0.2.2",
     "typescript": "^6.0.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.6.4",
+    "@biomejs/biome": "^2.6.8",
     "nano-staged": "^1.0.2",
     "sharp": "^0.35.5",
     "simple-git-hooks": "^2.14.0",
-    "wrangler": "^4.156.0"
+    "wrangler": "^4.166.0"
   }
 }
